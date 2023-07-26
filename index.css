@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    background: #f3f3f3;
+}
+
+#left {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 100%;
+    background: #dadada;
+    padding: 30px 40px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000;
+
+}
+
+nav a {
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+}
+
+nav a:nth-child(2) {
+    font-size: 15px;
+    opacity: 1;
+    margin-top: 6px;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+}
+
+#circle {
+    background-image: url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    width: 550px;
+    height: 550px;
+
+    border-radius: 50%;
+    top: 55%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#smcircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #dadada;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    height: 350px;
+    width: 350px;
+}
+
+#smcircle img {
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    /* transform: rotate(3.142rad); */
+    left: -50%;
+
+
+}
+
+#vsmcircle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border: 5px solid #fff;
+
+    top: 50%;
+    right: 0;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-flamingo-lake_23-2150536833.jpg?size=626&ext=jpg&ga=GA1.1.36606891.1683446006&semt=sph");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    transform: translate(90%, -50%);
+}
+
+#vsmcircle i {
+    position: absolute;
+    left: 50%;
+    justify-content: center;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+#cart {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#right {
+    width: 30%;
+    height: 100%;
+    color: #dadada;
+    padding: 30px 30px;
+    background: #222;
+}
+#right input{
+    width: 100%;
+    padding: 12px 32px;
+    border: none;
+    background: #333;
+    outline: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+}
+#right h4{
+    font-size: 18px;
+    /* font-weight: 100; */
+   margin: 10px;
+    opacity: .7;
+}
+
+#partimg{
+    width:90%;
+    height: 30%;
+background-image: url("https://img.freepik.com/free-photo/closeup-shot-two-colorful-macaws_181624-36098.jpg?w=900&t=st=1690017946~exp=1690018546~hmac=bafe9e585c94edde27fd28041e1f9db541a868bb3dd402d84a566401bee1294e");
+/* background-position: calc(10px,20px); */
+background-size: cover;
+border-radius: 30px;
+margin-left: 5.5%;
+}
+
+#right h3{
+    font-size: 27px;
+    margin-top: 30px;
+}
+.element{
+   display: flex;
+    width: 100%;
+    
+}
+
+.element>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 90px;
+    font-size: 10px !important;
+
+}
+.element h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.element p{
+    opacity: .2;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.element .dets h3{
+    font-size: 15px !important;
+    opacity: .7;
+
+}
+
